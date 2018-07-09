@@ -46,6 +46,6 @@ sentence = "Astounding aardvarks, arguably an ancient animal, always ate apples 
 
 # Swap all `A` for `O`, as well as all `a` for `o`. You need to chain `gsub`s.
 
-sentence = sentence # put a .swapcase Add your gsub chain here
+sentence = sentence.gsub("A","O").gsub("a","o") # put a .swapcase Add your gsub chain here
 
 puts sentence
